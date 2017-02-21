@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringhandling", "stringhan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings2", "strings2\strings2.csproj", "{AE866366-E4F4-439A-BE65-F20CBFAF2CED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strtask3", "strtask3\strtask3.csproj", "{16BBF7CD-08D5-46FF-9302-2E5BE9E724FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AE866366-E4F4-439A-BE65-F20CBFAF2CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE866366-E4F4-439A-BE65-F20CBFAF2CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE866366-E4F4-439A-BE65-F20CBFAF2CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BBF7CD-08D5-46FF-9302-2E5BE9E724FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BBF7CD-08D5-46FF-9302-2E5BE9E724FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BBF7CD-08D5-46FF-9302-2E5BE9E724FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BBF7CD-08D5-46FF-9302-2E5BE9E724FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

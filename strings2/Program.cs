@@ -10,7 +10,7 @@ namespace strings2
     {
         static void Main(string[] args)
         {
-            // char counter from user input
+            // char modificator from user input
             Console.WriteLine("Input some text for changing letters 'e' to '@': ");
             string stringtochange = Console.ReadLine();
             Console.WriteLine("Modification is: '{0}'", stringtochange.Replace("e", "@"));
