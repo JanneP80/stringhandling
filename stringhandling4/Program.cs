@@ -11,8 +11,8 @@ namespace stringhandling4
         static void Main(string[] args)
         {
             int amountl = 0;
-            // char counter from user input
-            Console.WriteLine("Input some text for calculationg letters 'L': ");
+            // Palindrom checker from user input
+            Console.WriteLine("Input some text for checking if word is a palindrom: ");
             string stringtocalc = Console.ReadLine().ToUpper();
             for (int i = 0; i < stringtocalc.Length; i++)
             {

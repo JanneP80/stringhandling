@@ -16,7 +16,7 @@ namespace stringhandling5
             string stringtocalc = Console.ReadLine().ToUpper();
             for (int i = 0; i < stringtocalc.Length; i++)
             {
-                if (stringtocalc[i] == ('L'))
+                if (stringtocalc[i] == ('A' | 'E' | 'I' | 'O' | 'U' | 'Y' | 'Ä' | 'Ö'))
                 {
                     amountl++;
                 }
