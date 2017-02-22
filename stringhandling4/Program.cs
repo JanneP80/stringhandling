@@ -10,19 +10,22 @@ namespace stringhandling4
     {
         static void Main(string[] args)
         {
-            int amountl = 0;
+            
             // Palindrom checker from user input
             Console.WriteLine("Input some text for checking if word is a palindrom: ");
-            string stringtocalc = Console.ReadLine().ToUpper();
-            for (int i = 0; i < stringtocalc.Length; i++)
+            string stringtocheck = Console.ReadLine().ToUpper();
+            for (int i = 0; i < stringtocheck.Length; i++)
             {
-                if (stringtocalc[i] == ('L'))
+                if (stringtocheck[i] == (''))
                 {
-                    amountl++;
+                    Console.WriteLine("Your text is a palindrom.");
+                }
+                else
+                {
+                    Console.WriteLine("Your text is NOT a palindrom.");
                 }
             }
-
-            Console.WriteLine("Amount of 'L' is: '{0}'", amountl);
+          
             Console.ReadKey();
         }
     }
